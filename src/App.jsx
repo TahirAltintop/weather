@@ -3,12 +3,12 @@ import "./App.css";
 
 function App() {
   const [message, setMessage] = useState("");
-  const [datas, setDatas] = useState("");
+  const [city, setCity] = useState("");
 
   const handleChange = (event) => {
     setMessage(event.target.value);
   };
-
+  // hata
   useEffect(() => {
     const getData = () => {
       fetch(
